@@ -34,9 +34,9 @@ body {
 }
 
 header {
-    background-color: #f5e5c6;
-    border-top: .8rem solid darkgreen;
-    border-bottom: .8rem solid darkgreen;
+    background-color: #fff;
+    border-top: .8rem solid #336633;
+    border-bottom: .8rem solid #336633;
     overflow: hidden;
     font-size: 1rem;
 }
@@ -48,14 +48,14 @@ article {
 
 .masthead {
     margin: auto;
-    background-image: url(../images/cherrycupcakes.jpg);
+    background-image: url(../images/quran.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    background-color: darkgreen;
+    background-color: #336633;
     overflow: hidden;
     height: 25rem;
-    border-bottom: .8rem solid darkgreen;
+    border-bottom: .8rem solid #336633;
     width: 100%;
 }
 
@@ -69,7 +69,7 @@ article {
 
 .logo {
     display: block;
-    width: 16rem;
+    width: 15rem;
     height: auto;
     margin: 1rem 5%;
 }
@@ -90,7 +90,7 @@ article {
 
 .nav-top {
 	max-height: 0; 
-    background-color: maroon;
+    background-color: #336633;
     -moz-transition: all 250ms linear;
 	-o-transition: all 250ms linear;
 	-webkit-transition: all 250ms linear;
@@ -130,8 +130,8 @@ figure {
 
 .figcaption {
     margin: 1rem;
+    padding: 0 5%;
     font-size: .25rem;
-    padding: 5%;
     background-color: black;
 }
 
@@ -162,11 +162,6 @@ figure {
     width: 50%;
 }
 
-h1 {
-    margin: auto;
-    padding: none;
-}
-
 h2 {
     margin: 19.7rem 0;
     background-color: rgba(234, 215, 191, .7);
@@ -181,20 +176,19 @@ h2 {
 h3 span {
     font-family: 'Raleway', 'sans-serif';
     font-weight: 500;
-    font-size: 3.25rem;
+    font-size: 3rem;
     line-height: 3rem;
     margin: 0;
-    color: #db4c50;
+    color: red;
     padding: 0;
     letter-spacing: 0;
 }
 
 h3 a {
     font-weight: normal;
-    font-size: 3.25rem;
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 4rem;
     margin: 5% 0;
-    padding: 1rem;
 }
 
 h4 {
@@ -207,6 +201,11 @@ h4 {
 h5 {
     margin: 5%;
     padding: none;
+}
+
+h6 {
+    margin:  5%;
+    font-size: 1.25rem;
 }
 
 p {
@@ -322,7 +321,7 @@ ul {
 }
 
 footer {
-    background-color: #22502f;
+    background-color: #336633;
     margin: 0;
     padding: 0;
 }
